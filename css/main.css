@@ -190,9 +190,14 @@ footer span {
 		text-align: left;
 	}
 
-	header nav ul li {
+	header nav ul {
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.section-three {
+		padding-left: 20px;
 	}
 
 	header nav {
